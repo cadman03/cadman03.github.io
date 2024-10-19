@@ -1,0 +1,101 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-color: #F5EFE6;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* headers*/
+h1, h2, h3 {
+   color: #1A4D2E;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-align: center ;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 80px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*paragraph*/
+p {
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #271e01;
+    padding: 20px;
+}
+
+/*nav*/
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #4F6F52;
+}
+
+nav a:hover {
+    color: rgb(255, 143, 16);
+    text-decoration: none; 
+}
+ 
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+/*list*/
+.assignments li {
+    list-style-type: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.assignments li::before {
+    content: "\2B50";
+    font-size: 1.6rem;
+}
+
+/*footer*/
+footer a:link {
+    text-decoration: none;
+    color: #1A4D2E;
+}
+
+footer a:visited {
+    color: #4F6F52;
+}
+
+footer a:hover {
+    color: rgb(255, 143, 16);
+    text-decoration: none; 
+}
+ 
+footer a:active {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #E8DFCA;
+    padding: 5px;
+    padding-left: 10px;
+}

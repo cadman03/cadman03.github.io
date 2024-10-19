@@ -41,4 +41,7 @@ nav a:active {
     color: blueviolet;
 }
   
+nav ul {
+    list-style-type: none;
+}
   
