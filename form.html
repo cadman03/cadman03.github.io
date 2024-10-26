@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="/cadman03.github.io/css/form-style.css">
 </head>
 <body>
-    
+
     <div id="wrapper">
 
 <!-- Links up here -->
 <nav>
     <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/challenge.html">Challenge</a></li>
-        <li><a href="#">Recipe</a></li>
-        <li><a href="/form.html">Form</a></li>
+        <li><a href="/index.html"><b>Home</b></a></li>
+        <li><a href="/challenge.html"><b>Challenge</b></a></li>
+        <li><a href="#"><b>Recipe</b></a></li>
+        <li><a href="/form.html"><b>Form</b></a></li>
     </ul>
 </nav>
 
@@ -84,15 +85,15 @@
         </div>
 
         <div>
-            <div>
-                Ocean View (additional cost)
-            </div>
+            <div class="radio">
+                Ocean View (additional cost):
+            
             <label for="view">Yes</label>
             <input type="radio" name="view" id="yes" value="yes">
 
             <label for="view">No</label>
             <input type="radio" name="view" id="no" value="no">
-
+            </div>
         </div>
 
         <div>
@@ -117,18 +118,18 @@
         <div>
             <label for="password">Create a password to return. Username is your email.</label>
             <input type="password" id="password" name="password" placeholder="password"> <br>
-            <input type="submit" value="Submit"> <br>
-            <input type="reset" value="Reset">
+            <button><input type="submit" value="Submit"></button> <br>
+            <button><input type="reset" value="Reset"></button>
         </div>
 
     </form>
-</section>
+    </section>
+        <footer>
+        <p>&copy2022 The Inn at Snowy River <br>Stowe, VT</p>
+        </footer>
+</div>
 
-    </div>
 
-<footer>
-    <p>&copy2022 The Inn at Snowy River <br>Stowe, VT</p>
-</footer>
 
 </body>
 </html>
