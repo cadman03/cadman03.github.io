@@ -27,11 +27,46 @@ h1 {
 h2 {
     font-size: 2rem;
     margin-left: 80px;
+	position: relative;
+	right: -7rem;
 }
 
 h3 {
     font-size: 1.5rem;
 }
+
+/*transition*/
+.transition{
+    font-size: 3rem;
+    text-align: center ;
+    letter-spacing: 8px;
+}
+
+.transition:hover {
+    letter-spacing: 12px;
+	transition: all 1s ease;
+}
+
+/*animation*/
+.keyframes:hover {
+        animation: animation1 4s ease .5s;
+    }
+    
+    @keyframes animation1 {
+        0% {
+            transform: rotate(0deg);
+        }
+    
+        75% {
+            transform: rotate(180deg);
+        }
+    
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+
 
 /*paragraph*/
 p {
@@ -61,6 +96,11 @@ nav a:active {
 
 nav ul {
     list-style-type: none;
+}
+
+#navbar {
+
+	position: fixed;
 }
 
 
